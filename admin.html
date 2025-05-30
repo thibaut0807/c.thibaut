@@ -1,0 +1,6 @@
+<script>
+    firebase.database().ref('inscriptions/').on('value', (snapshot) => {
+        const data = snapshot.val();
+        // Afficher les données dans un tableau
+    });
+</script>
